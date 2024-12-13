@@ -1,0 +1,12 @@
+.intro-lead-in-text {
+  background-color: var(--bs-emphasis-color);
+}
+
+svg {
+  text-align: center;
+}
+
+.tech-para {
+  margin-top: 25px;
+}
+
