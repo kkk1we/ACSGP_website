@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-16d9ee0ebbec087f1d7d1a0a3f72e273.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-16d9ee0ebbec087f1d7d1a0a3f72e273.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-30bd1028004fd46e16721f5aacb1be51.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-30bd1028004fd46e16721f5aacb1be51.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-b5899d3276b788302c5a70ae63bd6fa3.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-b5899d3276b788302c5a70ae63bd6fa3.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-7547625e950afd651949fbd223fa9eba.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-7547625e950afd651949fbd223fa9eba.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -36,7 +36,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-acc5ddb9ccd43e6501c2cdc1846574f4.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-acc5ddb9ccd43e6501c2cdc1846574f4.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -45,7 +45,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-16d9ee0ebbec087f1d7d1a0a3f72e273.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-16d9ee0ebbec087f1d7d1a0a3f72e273.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -54,7 +54,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-30bd1028004fd46e16721f5aacb1be51.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-30bd1028004fd46e16721f5aacb1be51.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -63,7 +63,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-b5899d3276b788302c5a70ae63bd6fa3.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-b5899d3276b788302c5a70ae63bd6fa3.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -72,7 +72,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-7547625e950afd651949fbd223fa9eba.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-7547625e950afd651949fbd223fa9eba.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -81,7 +81,7 @@
 
 @font-face {
 	font-family: 'Montserrat';
-	src: url(/assets/fonts/Montserrat-acc5ddb9ccd43e6501c2cdc1846574f4.woff2?h=fbd9fac44789370dd9c92d56c5ee2891) format('woff2');
+	src: url(../../assets/fonts/Montserrat-acc5ddb9ccd43e6501c2cdc1846574f4.woff2?h=1769c6ca968d1be5052d961c8853aca2) format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
