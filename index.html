@@ -227,6 +227,84 @@ function scrollToClass() {
                     <h3 class="text-muted section-subheading" style="font-size: 24px;"><span style="color: rgb(255, 255, 255);">Email : ken.yokota.soh@gmail.com</span></h3>
                 </div>
             </div>
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Progress Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .progress-container {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 30px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background-color: #4caf50;
+            text-align: center;
+            color: white;
+            line-height: 30px;
+            font-size: 14px;
+            transition: width 0.3s ease;
+        }
+        .info {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Donation Progress Tracker</h1>
+    <div class="info">
+        <p><strong>Target Amount:</strong> $<span id="target-amount">5000</span></p>
+        <p><strong>Raised Amount:</strong> $<span id="raised-amount">0</span></p>
+    </div>
+    <div class="progress-container">
+        <div id="progress-bar" class="progress-bar">0%</div>
+    </div>
+    <script>
+        // Set initial values
+        let targetAmount = 5000; // Set this from backend
+        let raisedAmount = 0; // Set this dynamically from backend
+
+        const targetElement = document.getElementById('target-amount');
+        const raisedElement = document.getElementById('raised-amount');
+        const progressBar = document.getElementById('progress-bar');
+
+        // Function to update progress
+        function updateProgress(newRaisedAmount) {
+            raisedAmount = newRaisedAmount;
+
+            // Update UI
+            raisedElement.textContent = raisedAmount.toFixed(2);
+
+            // Calculate progress percentage
+            const progressPercentage = Math.min((raisedAmount / targetAmount) * 100, 100);
+
+            // Update progress bar
+            progressBar.style.width = progressPercentage + '%';
+            progressBar.textContent = Math.floor(progressPercentage) + '%';
+        }
+
+        // Example: Simulate backend update (this should come from your backend)
+        setTimeout(() => updateProgress(1500), 1000); // $1500 after 1 second
+        setTimeout(() => updateProgress(3000), 3000); // $3000 after 3 seconds
+        setTimeout(() => updateProgress(5000), 5000); // $5000 after 5 seconds
+    </script>
+</body>
+</html>
+
             <div class="row">
                 <div class="col-lg-12">
                     <form id="contactForm" name="contactForm">
