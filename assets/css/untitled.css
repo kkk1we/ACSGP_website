@@ -21,3 +21,8 @@ html, body {
   padding: 0;
   overflow-x: hidden; /* Prevent any horizontal scroll */
 }
+
+.properembed {
+  aspect-ratio: 16 / 9; /* Adjust the ratio as needed (e.g., 4:3, 1:1) */
+  width: 100%; /* Or any desired width */
+}
